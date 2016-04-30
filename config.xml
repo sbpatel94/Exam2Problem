@@ -11,11 +11,11 @@
     <name>Exam 2 Problem</name>
 
     <description>
-        Mobile App Assignment for Exam 2 Problem
+        Mobile App Assignment for Exam 2 Problem. 
     </description>
 
     <author>
-        Savan Patel
+        Savan Patel 
     </author>
     
     <preference name="phonegap-version" value="3.7.0" />
