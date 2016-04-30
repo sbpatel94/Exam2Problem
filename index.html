@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Problem</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2Problem.css">
+    <script src="javascript/Exam2Problem.js"></script>
+</head>
+
+<body>
+<h1>Exam 2 Problem</h1>
+<select onchange="MenuChoice()" id="menu">
+    <option>Please select an option.</option>
+    <option>Show Area 1</option>
+    <option>Show Area 2</option>
+    <option>Show Area 3</option>
+    <option>Show Area 4</option>
+    <option>Show Area 5</option>
+    </select>
+<hr>
+<section id="section1" class="section1">
+<label>Please enter a Category Name:</label>
+<input type="text" id="catname">
+<br>
+<label>Please enter the Category Description:</label>
+<input type="text" id="description">
+<br>
+<button onclick="CreateCategory()" id="newcat">Create a new Category</button>
+<br>
+<hr>
+<label id="result">The operation's result will be displayed here.</label>
+</section>
+
+<section id="section2" class="section2">
+<label>Please enter the Category ID:</label>
+<input type="text" id="catid">
+<br>
+<label>Please enter Category Description:</label>
+<input type="text" id="catdescription">
+<br>
+<button onclick="UpdateCategory()" id="update">Update Category Description</button>
+<br>
+<hr>
+<label id="results">The opeation's result will be displayed here.</label>
+<br>
+</section>
+
+<section id="section3" class="section3">
+<h3>Savan Patel</h3>
+<h4>Senior at UAB<br>
+sbpatel@uab.edu<br>
+IS Major<br>
+Lives in Cullman, AL<br>
+From India
+</h4>
+<hr>
+</section>
+
+
+</body>
+</html>
